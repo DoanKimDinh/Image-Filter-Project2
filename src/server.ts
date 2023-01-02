@@ -1,6 +1,5 @@
 import express, { Request, Response } from "express";
 import bodyParser from "body-parser";
-
 import { filterImage, deleteFiles } from "./util";
 
 (async () => {
@@ -38,4 +37,4 @@ import { filterImage, deleteFiles } from "./util";
   app.listen(port, () => {
     console.log(`server running http://localhost:${port}`);
   });
-})();
+})(); 
