@@ -17,7 +17,7 @@ export async function filterImage(inputURL: string): Promise<string> {
       reject(error);
     }
   });
-}
+} 
 export async function deleteFiles(files: Array<string>) {
   for (let file of files) {
     fs.unlinkSync(file);
